@@ -1,0 +1,137 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"src/client/resp_cli/CMakeLists.txt",
+			"src/server/pingserver/CMakeLists.txt",
+			"src/server/rds/CMakeLists.txt",
+			"src/server/slimrds/CMakeLists.txt",
+			"src/server/slimcache/CMakeLists.txt",
+			"src/server/twemcache/CMakeLists.txt",
+			"src/server/segcache/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 28,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 32,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 30,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 30,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 30,
+				"parent" : 12
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 30,
+				"parent" : 14
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "pelikan_resp-cli::@9d4d1af614c23b86f7d6"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "pelikan_pingserver::@bc45aa624a48afb30fc3"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "pelikan_rds::@0f6fdca4caf926274b07"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "pelikan_slimrds::@39da044871450aeb811b"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "pelikan_slimcache::@a6c100e88a659a82e7e0"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "pelikan_twemcache::@ed4ef06106f54857747d"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "pelikan_segcache::@e111a8517a9ba7e1360b"
+		}
+	],
+	"id" : "service::@145eef247bfb46b6828c",
+	"name" : "service",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

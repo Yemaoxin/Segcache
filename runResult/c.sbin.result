@@ -1,0 +1,18 @@
+find TTL 86400: perc 0.6500, find TTL 1296000: perc 0.2700, find TTL 43200: perc 0.0700,
+
+6.00 hour, run 128.95 sec, throughput 4.10 MQPS, 529148824 440624778 requests, miss ratio 0.0994
+12.00 hour, run 268.39 sec, throughput 4.06 MQPS, 1088754947 912119674 requests, miss ratio 0.0964
+18.00 hour, run 421.24 sec, throughput 4.01 MQPS, 1688985722 1414182961 requests, miss ratio 0.0976
+24.00 hour, run 527.58 sec, throughput 4.01 MQPS, 2117102135 1761826322 requests, miss ratio 0.1012
+30.00 hour, run 667.67 sec, throughput 4.05 MQPS, 2701897285 2254386866 requests, miss ratio 0.0996
+36.00 hour, run 812.08 sec, throughput 4.07 MQPS, 3305129161 2766845238 requests, miss ratio 0.0976
+42.00 hour, run 972.39 sec, throughput 4.07 MQPS, 3960259554 3319617816 requests, miss ratio 0.0970
+48.00 hour, run 1124.64 sec, throughput 4.06 MQPS, 4567192196 3818506926 requests, miss ratio 0.0987
+trace_replay_seg.conf total benchmark runtime: 1124.65 s, throughput 4.06 M QPS
+average operation latency: 246.24 ns, miss ratio 0.0987
+op              get       3818543525(0.8361)
+op             gets         97190744(0.0213)
+op              set        377718508(0.0827)
+op              add        162195118(0.0355)
+op              cas         86416393(0.0189)
+op           delete         25171345(0.0055)

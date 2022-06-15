@@ -1,0 +1,18 @@
+create logger with filename (null) cap 0
+find TTL 86400: perc 0.6500, find TTL 1296000: perc 0.2700, find TTL 43200: perc 0.0700,
+
+6.00 hour, run 40.06 sec, throughput 4.92 MQPS, 197113002 186905079 requests, miss ratio 0.0367
+12.00 hour, run 86.18 sec, throughput 4.86 MQPS, 419007521 401094105 requests, miss ratio 0.0268
+18.00 hour, run 135.94 sec, throughput 4.78 MQPS, 649768309 624056505 requests, miss ratio 0.0227
+24.00 hour, run 162.02 sec, throughput 4.75 MQPS, 769704499 739615923 requests, miss ratio 0.0216
+30.00 hour, run 206.81 sec, throughput 4.78 MQPS, 988299374 951335529 requests, miss ratio 0.0204
+36.00 hour, run 252.75 sec, throughput 4.75 MQPS, 1201301139 1157811712 requests, miss ratio 0.0193
+42.00 hour, run 304.91 sec, throughput 4.71 MQPS, 1435901854 1384311891 requests, miss ratio 0.0187
+48.00 hour, run 354.51 sec, throughput 4.67 MQPS, 1656248126 1596063596 requests, miss ratio 0.0190
+/home/newstu/Segcache/_build/benchmarks/trace_replay_seg.conf total benchmark runtime: 354.52 s, throughput 4.67 M QPS
+average operation latency: 214.05 ns, miss ratio 0.0190
+op              get       1596076358(0.9637)
+op             gets          6318696(0.0038)
+op              set         30249611(0.0183)
+op              add         18525282(0.0112)
+op              cas          5091423(0.0031)

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/server/segcache/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_bin/pelikan_segcache"
+			],
+			"targetId" : "pelikan_segcache::@e111a8517a9ba7e1360b",
+			"targetIndex" : 22,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "server/segcache",
+		"source" : "src/server/segcache"
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/server/slimrds/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_bin/pelikan_slimrds"
+			],
+			"targetId" : "pelikan_slimrds::@39da044871450aeb811b",
+			"targetIndex" : 24,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "server/slimrds",
+		"source" : "src/server/slimrds"
+	}
+}

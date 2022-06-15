@@ -1,0 +1,172 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "storage/slab/libslab.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"set_platform",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/storage/slab/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 254,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -O0  -std=c11 -ggdb3 -Wall -Wshadow -Winline -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wunused-function -Wunused-value -Wunused-variable -fno-strict-aliasing  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "OS_DARWIN"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_GNU_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/Users/xieshiyi/Github/Segcache/cmake-build-debug"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/xieshiyi/Github/Segcache/deps/ccommon/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/xieshiyi/Github/Segcache/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/xieshiyi/Github/Segcache/benchmarks"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "datapool::@d62b11b29ec7017ed5f4"
+		}
+	],
+	"id" : "slab::@b674eb90ec7309364c97",
+	"name" : "slab",
+	"nameOnDisk" : "libslab.a",
+	"paths" : 
+	{
+		"build" : "storage/slab",
+		"source" : "src/storage/slab"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/storage/slab/hashtable.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/storage/slab/item.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/storage/slab/slab.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

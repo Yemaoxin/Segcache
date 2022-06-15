@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/server/rds/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_bin/pelikan_rds"
+			],
+			"targetId" : "pelikan_rds::@0f6fdca4caf926274b07",
+			"targetIndex" : 20,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "server/rds",
+		"source" : "src/server/rds"
+	}
+}

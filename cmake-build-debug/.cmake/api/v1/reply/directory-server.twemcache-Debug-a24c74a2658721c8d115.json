@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/server/twemcache/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_bin/pelikan_twemcache"
+			],
+			"targetId" : "pelikan_twemcache::@ed4ef06106f54857747d",
+			"targetIndex" : 25,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "server/twemcache",
+		"source" : "src/server/twemcache"
+	}
+}

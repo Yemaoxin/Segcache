@@ -1,0 +1,142 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "benchmarks/storage_seg/libbench_storage_seg.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_definitions",
+			"set_platform",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"benchmarks/storage_seg/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 254,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -O0  -std=c11 -ggdb3 -Wall -Wshadow -Winline -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wunused-function -Wunused-value -Wunused-variable -fno-strict-aliasing  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "OS_DARWIN"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_GNU_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xieshiyi/Github/Segcache/cmake-build-debug"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xieshiyi/Github/Segcache/deps/ccommon/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xieshiyi/Github/Segcache/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xieshiyi/Github/Segcache/benchmarks"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "bench_storage_seg::@14e650400a11ad5dc9e0",
+	"name" : "bench_storage_seg",
+	"nameOnDisk" : "libbench_storage_seg.a",
+	"paths" : 
+	{
+		"build" : "benchmarks/storage_seg",
+		"source" : "benchmarks/storage_seg"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "benchmarks/storage_seg/storage_seg.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

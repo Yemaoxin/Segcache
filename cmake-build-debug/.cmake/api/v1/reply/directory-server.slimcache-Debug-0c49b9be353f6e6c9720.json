@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/server/slimcache/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_bin/pelikan_slimcache"
+			],
+			"targetId" : "pelikan_slimcache::@a6c100e88a659a82e7e0",
+			"targetIndex" : 23,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "server/slimcache",
+		"source" : "src/server/slimcache"
+	}
+}

@@ -1,0 +1,226 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "benchmarks/trace_replay_LHD"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"set_platform",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"benchmarks/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 254,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -O0  -std=c11 -ggdb3 -Wall -Wshadow -Winline -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wunused-function -Wunused-value -Wunused-variable -fno-strict-aliasing  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -fPIE"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "OS_DARWIN"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_GNU_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/Users/xieshiyi/Github/Segcache/cmake-build-debug"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/xieshiyi/Github/Segcache/deps/ccommon/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/xieshiyi/Github/Segcache/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/xieshiyi/Github/Segcache/benchmarks"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "ccommon-static::@41139fd116a4c035d9de"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "LHD::@e0e95040be3836dae538"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "time::@bd83b289c10ac4bbd907"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "datapool::@d62b11b29ec7017ed5f4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "bench_storage_LHD::@8b316d310e160a63a0a6"
+		}
+	],
+	"id" : "trace_replay_LHD::@099d4941661e36fe2606",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O0  -std=c11 -ggdb3 -Wall -Wshadow -Winline -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wunused-function -Wunused-value -Wunused-variable -fno-strict-aliasing  -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "benchmarks/storage_LHD/libbench_storage_LHD.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "storage/LHD/libLHD.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "time/libtime.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "ccommon/lib/libccommon-2.1.0.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "datapool/libdatapool.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "trace_replay_LHD",
+	"nameOnDisk" : "trace_replay_LHD",
+	"paths" : 
+	{
+		"build" : "benchmarks",
+		"source" : "benchmarks"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "benchmarks/trace_replay/trace_replay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "benchmarks/trace_replay/reader.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "benchmarks/shared.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,97 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/ccommon/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ccommon/lib/libccommon-2.1.0.a"
+			],
+			"targetId" : "ccommon-static::@41139fd116a4c035d9de",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ccommon/lib/libccommon.2.1.0.dylib",
+				"ccommon/lib/libccommon.0.dylib"
+			],
+			"targetId" : "ccommon-shared::@41139fd116a4c035d9de",
+			"targetIndex" : 8,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ccommon/lib/libccommon.dylib"
+			],
+			"targetId" : "ccommon-shared::@41139fd116a4c035d9de",
+			"targetIndex" : 8,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/ccommon-2.1",
+			"paths" : 
+			[
+				{
+					"from" : "deps/ccommon/src/../include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ccommon/src",
+		"source" : "deps/ccommon/src"
+	}
+}
